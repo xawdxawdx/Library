@@ -8,9 +8,9 @@ namespace DanilaWebApp.Models
     {
         public int Id { get; set; }
         
-        [Required(ErrorMessage = "Cant be null'")]
+       
         public string CommunicationName { get; set; }
-        [Required(ErrorMessage = "Cant be null'")]
+   
         public string CommunicationSubType { get; set; }
         
         public ICollection<SupportedCommunicationType> SupportedCommunicationTypes { get; set; }

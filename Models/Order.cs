@@ -15,8 +15,7 @@ namespace DanilaWebApp.Models
         public Profile Profile { get; set; }
         
         public int ProfileId { get; set; }
-        [Phone(ErrorMessage = "Wrong Phone")]
-        [Required(ErrorMessage = "Cant be null")]
+   
         public string ContactPhone { get; set; }
         
         public ICollection<Phone> Phones { get; set; }
